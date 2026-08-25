@@ -1,0 +1,8 @@
+example.ir {
+    tls {
+        dns liara {$LIARA_API_KEY}
+	dns_ttl 2m
+    }
+
+    respond "Welcome."
+}
